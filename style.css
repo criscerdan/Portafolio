@@ -1,0 +1,258 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    width:375px ;
+    background-color: #273443;
+    font-family: "Kanit";
+    font-weight: 500;
+}
+@media (min-width:380px){
+    body{
+        width: 770px;    
+    }
+}
+@media (min-width:770px) {
+   body{
+    width: 100%;
+   }
+}
+
+
+.caja{
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img{
+    width: 56px;
+    height: 56px;
+}
+
+.titulo{
+    margin-left: 30%;
+    text-align: center;
+    font-family: "Kanit";
+    font-weight:bold;
+    color: #25d366 ;
+    font-size: 30px;
+}
+@media (min-width:770px) {
+    .titulo{
+        font-size: 50px;
+    }   
+}
+
+
+.principal{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+
+
+@media (min-width:770px) {
+    .principal{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 20px;
+        
+        
+    }   
+}
+
+
+.principal-titulo{
+    font-family: "Kanit";
+    color: #25d366 ;
+    font-size: 25px;
+    margin-left:2%;
+    margin-bottom: 2%;
+}
+.principal-textarea{
+    box-sizing: border-box;
+    background-color: #c4c4c4;
+    display: block;
+    border-radius: 9px;
+    margin-top: 2%;
+   margin-right: 5%;
+   font-family: "Kanit";
+   font-size: 15px;
+   text-indent: 15px;
+   
+   
+}
+@media (min-width:380px){
+    .principal-textarea{
+        width: 90%;
+    }
+}
+
+@media (min-width:380px){
+    .boton{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+    }
+}
+
+@media (min-width:770px) {
+    .principal-textarea{
+       width:600px;
+    }
+    .boton{
+        display: flex;
+        justify-content: space-around;
+        width: 650px;
+    }   
+}
+.boton-encriptar{
+    box-sizing: border-box;
+    background-color: #25d366 ;
+    width: 90%;
+    height: 70px;
+    margin-top: 5%;
+    margin-right: 2%;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Kanit";
+}
+
+
+@media (min-width:770px) {
+    .boton-encriptar{
+        font-family: "Kanit";
+        font-size: 20px;
+        border-radius: 15px;
+        font-weight: bold;
+    }
+    
+
+}
+
+
+.boton-desencriptar{
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    width: 90%;
+    height: 70px;
+    margin-top: 5%;
+    margin-right: 2%;
+    color: #25d366 ;
+    border: #25d366  solid 2px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Kanit";
+}
+.boton-desencriptar:hover{
+    background-color: #25d366 ;
+    color: white;
+    border: #25d366  solid 2px;
+}
+
+@media (min-width:380px) {
+    .boton-desencriptar{
+       font-size: 20px;
+       border-radius: 15px;
+       font-weight:bold;
+    }   
+}
+h6{
+    margin-top: 3%;
+    margin-right: 3%;
+    font-family: "Kanit";
+    font-size: 18px;
+}
+
+.respuesta{
+    background-color: #c4c4c4;
+    margin-top: 20px;
+   border-radius: 5%;
+   font-family: "Kanit";
+   font-size: 15px;
+   text-indent: 12px;
+}
+@media(min-width:380px){
+    .respuesta{
+        width: 90%;
+    }
+}
+@media(min-width:770px){
+    .respuesta{
+        width: 300px;
+    }
+}
+
+
+.copiar{
+    box-sizing: border-box;
+    background-color: #25d366;
+    width: 700px;
+    height: 70px;
+    margin-top: 5%;
+    margin-right: 2%;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: "Kanit";
+}
+.copiar:hover{
+    background-color:#dcf8c6;
+    color: #25d366;
+    border:#25d366 solid 4px;
+}
+@media(min-width:380px){
+    .copiar{
+        width: 90%;
+        border-radius: 15px;
+        font-size: 25px;
+    }
+}
+@media(min-width:770px){
+    .copiar{
+     width: 300px;
+    }
+}
+@media (min-width:380px) {
+    .segundo-segmento,.respuesta{
+       height: 78%;
+    }   
+}
+
+footer{
+    
+    background-color: #25d366;
+    margin-top: 30px;
+    height: 50px;
+}
+
+.social-links{
+    display:flex;
+    justify-content:center;
+}
+@media(min-width:380px){
+    .social-links{
+        justify-content: flex-start;
+    }
+}
+.git, .ig , .linkedin , .twitter{
+    margin-left: 10px;
+    margin-top: 7px;
+    width: 36px;
+    height: 36px;
+}
+
+.informacion{
+    color: white;
+}
+

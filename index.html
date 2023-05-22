@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Encriptador</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <img src="./Imagenes/Vector.png" alt="" class="img">
+            <h1 class="titulo"> Encriptador</h1>
+        </div>
+    </header>
+    <main class="principal">
+        <section>
+            
+                <label for="mensaje" class="principal-titulo">Ingrese el texto debajo</label>
+                <textarea name="" id="mensaje" cols="35" rows="20" style="border:none" class="principal-textarea" placeholder="&#128071; Aqui!"></textarea>
+        
+            <div>
+                <h6 class="informacion"> &#9940; Solo letras minúsculas y sin acentos. </h6>
+            </div>
+            <div class="boton">
+                <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+            <div class="resultado">
+        </section>
+        <section class="segundo-segemento">
+            <textarea class="respuesta" style="border:none" cols="35" rows="20"></textarea>
+            <div>
+                <button class="copiar" onclick="botonCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="social-links">
+            <li><a href="https://github.com/criscerdan"><img src="./Imagenes/github.png" alt="" class="git"></a></li>
+            <li><a href="https://www.instagram.com/cris__cerdan/"><img src="./Imagenes/instagram.png" alt="" class="ig"></a></li>
+            <li><a href="https://www.linkedin.com/in/cristian-cerdan/"><img src="./Imagenes/linkedin.png" alt="" class="linkedin"></a></li>
+            <li><a href="https://twitter.com/leblack09"><img src="./Imagenes/gorjeo.png" alt="" class="twitter"></a></li>
+        </ul>
+    </footer>
+
+<script src="./script.js"></script>        
+    
+</body>
+</html>
